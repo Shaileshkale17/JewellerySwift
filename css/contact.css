@@ -15,7 +15,7 @@
     font-size: 6vh;
     font-family: var(--font-family-Domine);
 }
-.contacyt-text{
+.contact-text{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -23,14 +23,14 @@
     padding-left: 26vh;
     padding-top: 2vh;
 }
-.contacyt-text p{
+.contact-text p{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: baseline;
     padding-top: 2vh;
 }
-.contacyt-text input {
+.contact-text input {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -40,8 +40,10 @@
     background-color: var(--color-6d6563);
     font-family: var(--font-family-Domine);
     border-color: var(--color-white);
+    color: var(--color-white);
+
   }
-.contacyt-text textarea {
+.contact-text textarea {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -51,6 +53,7 @@
     background-color: var(--color-6d6563);
     font-family: var(--font-family-Domine);
     border-color: var(--color-white);
+    color: var(--color-white);
   }
 
   button{

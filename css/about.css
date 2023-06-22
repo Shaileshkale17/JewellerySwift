@@ -1,0 +1,62 @@
+
+#main {
+    background-image: url(/image/back-image-101.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: 0;
+    background-size: cover;
+    object-fit: cover;
+}
+#main .shop_name {
+    font-size: 3rem;
+    overflow-y: hidden;
+}
+
+#videos-section .video {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.video-text h3{
+    margin-top: 80px;
+    margin-bottom: 14px;
+}
+.info-main {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-info-text-box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.image-info-text-box img {
+    width: 80%;
+    height: 50vh;
+    padding-bottom: 21px;
+    object-fit: cover;
+}
+
+.text-info-text-box {
+    text-align: center;
+    text-align: center;
+}
+.text-info-text-box h2{
+    padding-bottom: 10px;
+}
+.text-info-text-box p{
+    padding-left: 10vh;
+    padding-right: 10vh;
+    text-align: justify;
+    margin-bottom: 50px;
+}

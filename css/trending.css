@@ -1,0 +1,146 @@
+
+h3 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#style-h3{
+    margin-top: 0px;
+}
+
+input{
+    margin-right: 10px;
+}
+.navbar-dropdow-main {
+    color: var(--color-black);
+    padding-top: 23px;
+    padding-bottom: 32px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-dropdow-main ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: larger;
+}
+
+.arrow {
+    display: none;
+}
+
+.navbar-dropdow-main ul li:hover .arrow {
+    display: block;
+    position: absolute;
+    align-items: end;
+}
+
+.navbar-dropdow {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 2rem;
+    left: 80px;
+}
+.price-navbar-dropdow{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 2rem;
+    left: 6rem;
+}
+.metal-navbar-dropdow {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 2rem;
+    left: 11.5rem;
+}
+.style-navbar-dropdow {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 2rem;
+    left: 17.5rem;
+}
+.gender-navbar-dropdow {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 2rem;
+    left: 23rem;
+}
+
+.navbar-dropdow a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.price-navbar-dropdow a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.metal-navbar-dropdow a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.style-navbar-dropdow a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.gender-navbar-dropdow a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar-dropdow a:hover {
+    background-color: #ddd;
+}
+.price-navbar-dropdow a:hover {
+    background-color: #ddd;
+}
+.metal-navbar-dropdow a:hover {
+    background-color: #ddd;
+}
+.style-navbar-dropdow a:hover {
+    background-color: #ddd;
+}
+.gender-navbar-dropdow a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
