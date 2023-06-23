@@ -2,7 +2,7 @@
     align-items: center;
 }
 .contact-form{
-    background-image: url(/image/contact-image.jpg);
+    background-image: url(image/contact-image.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 70rem;
