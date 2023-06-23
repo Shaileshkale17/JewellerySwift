@@ -1,0 +1,89 @@
+section {
+    background-image: url(../image/B-2.jpg);
+    /* opacity: 0.5 */
+}
+
+.sign-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10vh;
+    background-image: url(../image/B-2.jpg);
+    color: white;
+    margin: 16vh 22vh 16vh 22vh;
+    /* box-shadow: -13px -10px 72px -6px white; */
+}
+
+.sign-welcome-text {
+    margin-right: 30vh;
+}
+
+.sign-welcome-text h1 {
+    margin-bottom: 5rem;
+    font-size: 6rem;
+    font-family: var(--font-family-Domine);
+}
+
+
+.sign-welcome-text p {
+    text-align: justify;
+    margin-bottom: 10vh;
+    /* color: var(--color-black); */
+}
+
+.sign-in-page {
+    /* margin-bottom: 20vh; */
+    font-family: var(--font-family-Domine);
+}
+
+.sign-in-page h2 {
+    margin-top: 9vh;
+    font-size: 2rem;
+    margin-bottom: 3vh;
+}
+
+.sign-in-page label {
+    font-size: 3vh;
+}
+
+.sign-in-page input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid var(--color-white);
+    background-color: var(--color-272729);
+    font-family: var(--font-family-Domine);
+    border-color: var(--color-white);
+    color: var(--color-black);
+    font-weight: bold;
+}
+
+.sign-in-page button {
+    margin-top: 21px;
+    padding: 14px 70px;
+    size: 3vh;
+    border: 2px solid var(--color-green);
+    border-radius: 26px 26px;
+    color: var(--color-black);
+}
+
+.sign-in-page button:hover {
+    border: 2px solid var(--color-white);
+    background-color: var(--color-green);
+    border-radius: 26px 26px;
+}
+
+.sign-icon {
+
+    width: 119px;
+    display: flex;
+
+}
+
+.sign-in-page .sign-icon img {
+    margin-left: 32px;
+    margin-top: 17px;
+    margin-right: 12px;
+}

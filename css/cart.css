@@ -1,0 +1,54 @@
+#cart{
+    padding: 0px 90px;
+}
+
+.cart{
+    display: grid;
+    grid-template-rows: auto;
+    padding: 40px 20px;
+}
+.cart .cart-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cart .cart-main .cart-img{
+    width: 10%;
+    
+}
+.cart .cart-main .cart-img img{
+    width: 75%;
+    height: 75%;
+    object-fit: fill;
+}
+.cart .cart-main .cart-text{
+    font-size: 2rem;
+}
+.cart .cart-main .cart-icon{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 50rem;
+}
+.cart .cart-main .cart-icon input{
+    width: 50px;
+    height: 24px;
+}
+.cart .cart-main .cart-icon i{
+    display: flex;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 2vh;
+    cursor: pointer;
+}
+
+.Recommended_jewellery-boxs{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 30px 0px;
+}
+img{
+    width: 60%;
+    height: 60%;
+}

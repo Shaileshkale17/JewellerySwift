@@ -88,6 +88,16 @@ section:nth-child(1) {
   margin-top: 20px;
   padding-right: 21px;
 }
+.section-3 .bi-cart-dash{
+  color: var(--color-black);
+  padding: 2px 2px;
+  border-radius: 41px;
+}
+.section-3 .bi-person-circle{
+  color: var(--color-black);
+  padding: 2px 2px;
+  border-radius: 41px;
+}
 
 .social-networking {
   font-size: 30px;
@@ -120,7 +130,7 @@ section:nth-child(1) {
   cursor: pointer;
 }
 .hero-2 .nav ul li a:hover {
-  color: var(--color-blue);
+  opacity: 0.2;
 }
 
 /* section main */
