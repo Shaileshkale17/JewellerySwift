@@ -130,10 +130,10 @@ section:nth-child(1) {
 }
 
 #main {
-  background-image: url("../image/jewellery-1.jpg");
+  background-image: url("../image/jewellery.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position-y: -107vh;
+  background-position-y: -12vh;
   background-size: cover;
 }
 
