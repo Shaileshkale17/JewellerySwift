@@ -1,27 +1,917 @@
- /* !X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
-   
-   section{
+/* !X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  section {
     min-height: 50vh;
-   }
-    #main{
-background-position-y: -50vh;
-    }
-    .horo-2{
-        display: none;
-    }
- }
+  }
 
- /* !Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {  }
+  #hero-section {
+    min-height: 13vh;
+  }
+
+  .hero #navbar-icon {
+    border: none;
+    background-color: var(--color-white);
+    display: flex;
+    margin: 35px 12px;
+    font-size: 35px;
+  }
+
+  .hero-2 .nav ul li a {
+    text-decoration: none;
+    color: var(--color-white);
+    cursor: pointer;
+  }
+
+  .section-1 {
+    display: none;
+  }
+
+  .section-2 {
+    display: flex;
+    text-align: center;
+    margin: 0 10vh;
+    justify-content: center;
+  }
+
+  .section-2 img {
+    width: 50vh;
+    margin-right: 65px;
+    margin-left: 40px;
+  }
+
+  .section-3 {
+    display: contents;
+  }
+
+  .section-3 {
+    padding-right: 0;
+    margin-top: 20px;
+  }
+
+  .social-networking {
+    display: contents;
+  }
+
+  .section-3 .social-networking a {
+    margin-top: 34px;
+  }
+
+  .hero-section {
+    display: inline;
+  }
+
+  .hero-2 .nav {
+    color: var(--color-black);
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #Close {
+    display: inline;
+    background: none;
+    border: none;
+    font-size: 60px;
+  }
+
+  #hero_2 .hero-2 {
+    display: none;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .active {
+    display: inline;
+  }
+
+  .hero-2 .nav ul {
+    position: absolute;
+    display: grid;
+    text-align: center;
+    animation-name: navbar;
+    animation-duration: 2s;
+    backdrop-filter: blur(8px);
+    color: var(--color-black);
+    width: 100vh;
+    height: 61%;
+    justify-content: center;
+  }
+
+  .hero-2 .nav ul a {
+    color: var(--color-white);
+  }
+
+  #nav-media {
+    position: absolute;
+  }
+
+  @keyframes navbar {
+    from {
+      transform: translateY(-875px);
+    }
+
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  #hero-2 ul li {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  #hero-2 ul li a {
+    font-weight: bolder;
+    color: var(--color-white);
+    font-family: var(--font-family-Domine);
+  }
+
+  #main {
+    background-position-y: -50vh;
+  }
+
+  #videos-section .main-text p {
+    font-size: 22px;
+    padding: 0px 50px;
+  }
+
+  #videos-section .video {
+    padding: 20px;
+  }
+
+  #videos-section .video video {
+    width: 50%;
+  }
+
+  #videos-section .video .video-text {
+    padding: 60px;
+  }
+
+  #videos-section
+    .upcoming_jewellery
+    .upcoming_jewellery-boxs
+    .upcoming_jewellery-box {
+    width: 30vh;
+  }
+
+  #videos-section .upcoming_jewellery .upcoming_jewellery-boxs {
+    display: grid;
+    gap: 30px;
+  }
+
+  #videos-section
+    .upcoming_jewellery
+    .upcoming_jewellery-boxs
+    .upcoming_jewellery-box {
+    width: 35vh;
+  }
+
+  #videos-section
+    .upcoming_jewellery
+    .upcoming_jewellery-boxs
+    .upcoming_jewellery-box
+    img {
+    width: 60%;
+    height: 213px;
+  }
+
+  #videos-section
+    .upcoming_jewellery
+    .upcoming_jewellery-boxs
+    .upcoming_jewellery-box:fullscreen
+    img {
+    width: 60%;
+    height: 213px;
+  }
+
+  #jewellery-section .jewellery-section-main .jewellery-section-main-image-box {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #jewellery-section
+    .jewellery-section-main
+    .jewellery-section-main-image-box
+    .jewellery-section-image-box {
+    width: 100%;
+  }
+
+  /* footer */
+  .footer {
+    width: 100vh;
+  }
+
+  .footer-col {
+    padding: 0 64px;
+  }
+
+  .copy p {
+    padding: 0 64px;
+  }
+}
+
+/* !Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  section {
+    min-width: 44vh;
+    min-height: 50vh;
+  }
+
+  #hero-section {
+    min-height: 13vh;
+  }
+
+  .hero #navbar-icon {
+    border: none;
+    background-color: var(--color-white);
+    display: flex;
+    margin: 36px 25px;
+    font-size: 39px;
+  }
+
+  .hero-2 .nav ul li a {
+    text-decoration: none;
+    color: var(--color-white);
+    cursor: pointer;
+  }
+
+  .section-1 {
+    display: none;
+  }
+
+  .section-2 {
+    display: flex;
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .section-2 img {
+    width: 30vh;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .section-3 {
+    display: contents;
+  }
+
+  .section-3 {
+    padding-right: 0;
+    margin-top: 20px;
+  }
+
+  .social-networking {
+    display: contents;
+    font-size: 42px;
+  }
+
+  .section-3 .social-networking a {
+    margin-top: 34px;
+    padding-right: 2rem;
+  }
+
+  .hero-section {
+    display: inline;
+  }
+
+  .hero-2 .nav {
+    color: var(--color-black);
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #Close {
+    display: inline;
+    background: none;
+    border: none;
+    font-size: 60px;
+  }
+
+  #hero_2 .hero-2 {
+    display: none;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .active {
+    display: inline;
+  }
+
+  .hero-2 .nav ul {
+    position: absolute;
+    display: grid;
+    text-align: center;
+    animation-name: navbar;
+    animation-duration: 2s;
+    backdrop-filter: blur(8px);
+    color: var(--color-black);
+    width: 100vh;
+    height: 61%;
+    justify-content: center;
+  }
+
+  .hero-2 .nav ul a {
+    color: var(--color-white);
+  }
+
+  #nav-media {
+    position: absolute;
+  }
+
+  @keyframes navbar {
+    from {
+      transform: translateY(-875px);
+    }
+
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  #hero-2 ul li {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  #hero-2 ul li a {
+    font-weight: bolder;
+    color: var(--color-white);
+    font-family: var(--font-family-Domine);
+  }
+
+  #main {
+    background-position-y: -45vh;
+    background-size: 100%;
+    background-position-x: -312px;
+  }
+
+  #main .shop_name {
+    padding: 50% 0 50% 0;
+  }
+
+  #main .shop_name p {
+    font-size: 27px;
+    margin-bottom: 0;
+  }
+
+  #videos-section .main-text p {
+    font-size: 22px;
+    padding: 0px 50px;
+  }
+
+  #videos-section .video {
+    padding: 20px;
+  }
+
+  #videos-section .video video {
+    width: 50%;
+  }
+
+  #videos-section .video .video-text {
+    padding: 60px;
+  }
+  #videos-section
+    .upcoming_jewellery
+    .upcoming_jewellery-boxs
+    .upcoming_jewellery-box {
+    width: 13vh;
+  }
+
+  #videos-section
+    .upcoming_jewellery
+    .upcoming_jewellery-boxs
+    .upcoming_jewellery-box
+    img {
+    width: 60%;
+    height: 213px;
+  }
+
+  #videos-section
+    .upcoming_jewellery
+    .upcoming_jewellery-boxs
+    .upcoming_jewellery-box:fullscreen
+    img {
+    width: 60%;
+    height: 213px;
+  }
+
+  #jewellery-section .jewellery-section-main .jewellery-section-main-image-box {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #jewellery-section
+    .jewellery-section-main
+    .jewellery-section-main-image-box
+    .jewellery-section-image-box {
+    width: 100%;
+  }
+
+  /* footer */
+  .footer {
+    width: 78vh;
+  }
+  .footer-col {
+    width: 34%;
+    margin-bottom: 30px;
+  }
+
+  .copy p {
+    padding: 0 64px;
+  }
+}
 
 /*  !Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {  }
+@media (max-width: 991.98px) {
+  section {
+    min-width: 44vh;
+    min-height: 50vh;
+  }
+  #hero-section {
+    min-height: 13vh;
+  }
 
- /* !Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {  }
+  .hero #navbar-icon {
+    border: none;
+    background-color: var(--color-white);
+    display: flex;
+    margin: 36px 25px;
+    font-size: 39px;
+  }
 
- /*! X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {  }
+  .hero-2 .nav ul li a {
+    text-decoration: none;
+    color: var(--color-white);
+    cursor: pointer;
+  }
+
+  .section-1 {
+    display: none;
+  }
+
+  .section-2 {
+    display: flex;
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .section-2 img {
+    width: 30vh;
+    margin-right: 6rem;
+    margin-left: 6rem;
+  }
+
+  .section-3 {
+    display: contents;
+  }
+
+  .section-3 {
+    padding-right: 0;
+    margin-top: 20px;
+  }
+
+  .social-networking {
+    display: contents;
+    font-size: 42px;
+  }
+
+  .section-3 .social-networking a {
+    margin-top: 34px;
+    padding-right: 2rem;
+  }
+
+  .hero-section {
+    display: inline;
+  }
+
+  .hero-2 .nav {
+    color: var(--color-black);
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #Close {
+    display: inline;
+    background: none;
+    border: none;
+    font-size: 60px;
+  }
+
+  #hero_2 .hero-2 {
+    display: none;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .active {
+    display: inline;
+  }
+
+  .hero-2 .nav ul {
+    position: absolute;
+    display: grid;
+    text-align: center;
+    animation-name: navbar;
+    animation-duration: 2s;
+    backdrop-filter: blur(8px);
+    color: var(--color-black);
+    width: 100vh;
+    height: 61%;
+    justify-content: center;
+  }
+  .hero-2 .nav ul {
+    width: 56vh;
+    height: 40%;
+  }
+  .hero-2 .nav ul a {
+    color: var(--color-white);
+  }
+
+  #nav-media {
+    position: absolute;
+  }
+
+  @keyframes navbar {
+    from {
+      transform: translateY(-875px);
+    }
+
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  #hero-2 ul li {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  #hero-2 ul li a {
+    font-weight: bolder;
+    color: var(--color-white);
+    font-family: var(--font-family-Domine);
+  }
+
+  #main {
+    background-position-y: -45vh;
+    background-size: 154%;
+    background-position-x: -71px;
+  }
+
+  #main .shop_name {
+    padding: 50% 0 50% 0;
+  }
+
+  #main .shop_name p {
+    font-size: 27px;
+    margin-bottom: 0;
+  }
+
+  #videos-section .main-text p {
+    font-size: 22px;
+    padding: 0px 50px;
+  }
+
+  #videos-section .video {
+    padding: 20px;
+  }
+
+  #videos-section .video video {
+    width: 50%;
+  }
+
+  #videos-section .video .video-text {
+    padding: 60px;
+  }
+  #videos-section
+    .upcoming_jewellery
+    .upcoming_jewellery-boxs
+    .upcoming_jewellery-box {
+    width: 13vh;
+  }
+
+  #videos-section
+    .upcoming_jewellery
+    .upcoming_jewellery-boxs
+    .upcoming_jewellery-box
+    img {
+    width: 60%;
+    height: 213px;
+  }
+
+  #videos-section
+    .upcoming_jewellery
+    .upcoming_jewellery-boxs
+    .upcoming_jewellery-box:fullscreen
+    img {
+    width: 60%;
+    height: 213px;
+  }
+
+  #jewellery-section .jewellery-section-main .jewellery-section-main-image-box {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #jewellery-section
+    .jewellery-section-main
+    .jewellery-section-main-image-box
+    .jewellery-section-image-box {
+    width: 100%;
+  }
+}
+
+/* !Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  section {
+    min-width: 100%;
+    min-height: 50vh;
+  }
+  #hero-section {
+    min-height: 13vh;
+  }
+
+  .hero #navbar-icon {
+    border: none;
+    background-color: var(--color-white);
+    display: flex;
+    margin: 36px 25px;
+    font-size: 39px;
+  }
+
+  .hero-2 .nav ul li a {
+    text-decoration: none;
+    color: var(--color-white);
+    cursor: pointer;
+  }
+
+  .section-1 {
+    display: none;
+  }
+
+  .section-2 {
+    display: flex;
+    text-align: center;
+    margin: 0 12rem;
+    justify-content: center;
+}
+
+  .section-2 img {
+    width: 30vh;
+    margin-right: 6rem;
+    margin-left: 6rem;
+  }
+
+  .section-3 {
+    display: contents;
+  }
+
+  .section-3 {
+    padding-right: 0;
+    margin-top: 20px;
+  }
+
+  .social-networking {
+    display: contents;
+    font-size: 42px;
+  }
+
+  .section-3 .social-networking a {
+    margin-top: 20px;
+    padding-right: 2rem;
+  }
+
+  .hero-section {
+    display: inline;
+  }
+
+  .hero-2 .nav {
+    color: var(--color-black);
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #Close {
+    display: inline;
+    background: none;
+    border: none;
+    font-size: 60px;
+  }
+
+  #hero_2 .hero-2 {
+    display: none;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .active {
+    display: inline;
+  }
+
+  .hero-2 .nav ul {
+    position: absolute;
+    display: grid;
+    text-align: center;
+    animation-name: navbar;
+    animation-duration: 2s;
+    backdrop-filter: blur(8px);
+    color: var(--color-black);
+    width: 100vh;
+    height: 61%;
+    justify-content: center;
+  }
+  .hero-2 .nav ul {
+    width: 56vh;
+    height: 40%;
+  }
+  .hero-2 .nav ul a {
+    color: var(--color-white);
+  }
+
+  #nav-media {
+    position: absolute;
+  }
+
+  @keyframes navbar {
+    from {
+      transform: translateY(-875px);
+    }
+
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  #hero-2 ul li {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  #hero-2 ul li a {
+    font-weight: bolder;
+    color: var(--color-white);
+    font-family: var(--font-family-Domine);
+  }
+
+  #main {
+    background-position-y: -70vh;
+    background-size: 100%;
+    background-position-x: 0;
+  }
+
+  #main .shop_name {
+    padding: 50% 0 50% 0;
+  }
+
+  #main .shop_name p {
+    font-size: 27px;
+    margin-bottom: 0;
+  }
+
+  #videos-section .main-text p {
+    font-size: 22px;
+    padding: 0px 50px;
+  }
+
+  #videos-section .video {
+    padding: 20px;
+  }
+
+  #videos-section .video video {
+    width: 50%;
+  }
+
+  #videos-section .video .video-text {
+    padding: 60px;
+  }
+  #videos-section
+    .upcoming_jewellery
+    .upcoming_jewellery-boxs
+    .upcoming_jewellery-box {
+    width: 13vh;
+  }
+
+  #videos-section
+    .upcoming_jewellery
+    .upcoming_jewellery-boxs
+    .upcoming_jewellery-box
+    img {
+    width: 60%;
+    height: 213px;
+  }
+
+  #videos-section
+    .upcoming_jewellery
+    .upcoming_jewellery-boxs
+    .upcoming_jewellery-box:fullscreen
+    img {
+    width: 60%;
+    height: 213px;
+  }
+
+  #jewellery-section .jewellery-section-main .jewellery-section-main-image-box {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #jewellery-section
+    .jewellery-section-main
+    .jewellery-section-main-image-box
+    .jewellery-section-image-box {
+    width: 100%;
+  }
+}
+
+/*! X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+  section {
+    min-width: 100%;
+  }
+  #hero-section {
+    min-width: 100%;
+    min-height: 16vh;
+  }
+  .hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .section-1 {
+    margin-top: 20px;
+    padding-left: 21px;
+    font-size: 26px;
+  }
+  .section-2 img {
+    width: 50vh;
+    margin: 0 2rem;
+  }
+  .section-3 {
+    margin-top: 4rem;
+    padding-right: 0;
+  }
+  .social-networking {
+    font-size: 55px;
+    display: flex;
+  }
+  .social-networking a {
+    padding: 24px;
+  }
+
+  #main {
+    min-height: 40vh;
+    background-position-y: -37vh;
+  }
+  #videos-section .main-text p {
+    padding: 10px 79px;
+    font-size: 31px;
+  }
+  #videos-section .video video {
+    width: 50%;
+  }
+  #videos-section .video .video-text {
+    text-align: center;
+    padding: 100px 0 100px 100px;
+    font-size: 31px;
+    animation-name: video-text;
+    animation-duration: 10s;
+  }
+  #videos-section .video {
+    padding: 70px;
+  }
+
+  #videos-section
+    .upcoming_jewellery
+    .upcoming_jewellery-boxs
+    .upcoming_jewellery-box {
+    text-align: center;
+    width: 21vh;
+  }
+
+  #jewellery-section .jewellery-section-main .jewellery-section-main-image-box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
 /* ! XX-Large devices (larger desktops) */

@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 #preloader {
-  background: var(--color-white) url(videos/gold-coin.gif) no-repeat center center;
+  background: var(--color-white) url(videos/gold-coin.gif) no-repeat center
+    center;
   background-size: 20%;
   height: 100vh;
   width: 100%;
@@ -15,7 +16,6 @@
 section {
   min-width: 100vh;
   min-height: 100vh;
-  overflow-x: hidden;
 }
 h1 {
   font-family: var(--font-family-Roboto);
@@ -33,9 +33,10 @@ h5 {
 }
 
 /* header section */
-#hero-section{
-    min-width: 100vh;
+#hero-section {
+  min-width: 100vh;
   min-height: 20vh;
+  overflow-x: hidden;
 }
 section:nth-child(1) {
   min-height: 20vh;
@@ -88,12 +89,12 @@ section:nth-child(1) {
   margin-top: 20px;
   padding-right: 21px;
 }
-.section-3 .bi-cart-dash{
+.section-3 .bi-cart-dash {
   color: var(--color-black);
   padding: 2px 2px;
   border-radius: 41px;
 }
-.section-3 .bi-person-circle{
+.section-3 .bi-person-circle {
   color: var(--color-black);
   padding: 2px 2px;
   border-radius: 41px;
@@ -132,11 +133,21 @@ section:nth-child(1) {
 .hero-2 .nav ul li a:hover {
   opacity: 0.5;
 }
+#nav-media{
+  display: none;
+}
 
+#navbar-icon{
+  display: none;
+}
+#Close{
+  display: none;
+}
 /* section main */
 
 #main {
   background-color: var(--color-white);
+  overflow-x: hidden;
 }
 
 #main {
@@ -233,15 +244,21 @@ section:nth-child(1) {
 }
 
 #videos-section .upcoming_jewellery .upcoming_jewellery-boxs {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
   justify-content: space-between;
   align-items: center;
   margin-top: 80px;
   margin-bottom: 80px;
-  padding-left: 90px;
-  padding-right: 90px;
-  gap: 20px;
+  /* padding-left: 90px;
+  padding-right: 90px; */
+  gap: 70px;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
+#videos-section .upcoming_jewellery .upcoming_jewellery-boxs::-webkit-scrollbar {
+  display: none;
+} 
 
 #videos-section
   .upcoming_jewellery
@@ -258,9 +275,11 @@ section:nth-child(1) {
   .upcoming_jewellery-boxs
   .upcoming_jewellery-box {
   text-align: center;
-  width: 18%;
+  width: 30vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 26px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   transition: 2s;
 }
 
@@ -277,6 +296,13 @@ section:nth-child(1) {
   .upcoming_jewellery
   .upcoming_jewellery-boxs
   .upcoming_jewellery-box
+  .upcoming_jewellery-box-text{
+    padding-bottom: 1rem;
+  }
+#videos-section
+  .upcoming_jewellery
+  .upcoming_jewellery-boxs
+  .upcoming_jewellery-box
   .upcoming_jewellery-box-text
   p {
   text-align: justify;
@@ -285,6 +311,7 @@ section:nth-child(1) {
 /* jewellery-section */
 #jewellery-section {
   margin-bottom: 10vh;
+  overflow-x: hidden;
 }
 #jewellery-section .jewellery-section-main h3 {
   text-align: center;
@@ -292,14 +319,15 @@ section:nth-child(1) {
 }
 
 #jewellery-section .jewellery-section-main .jewellery-section-main-image-box {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   justify-content: space-between;
   align-items: center;
   margin-top: 80px;
   margin-bottom: 80px;
   padding-left: 90px;
   padding-right: 90px;
-  gap: 30px;
+  gap: 55px;
 }
 
 #jewellery-section
@@ -314,9 +342,9 @@ section:nth-child(1) {
   .jewellery-section-main-image-box
   .jewellery-section-image-box {
   text-align: center;
-  width: 18%;
+  width: 100%;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
   transition: 2s;
 }
 
@@ -356,6 +384,7 @@ footer {
   background-color: var(--color-black);
   color: var(--color-white);
   text-align: center;
+  overflow-x: hidden;
 }
 
 /* footer */
@@ -374,6 +403,7 @@ ul {
 .footer {
   background-color: #24262b;
   padding: 70px 0;
+  padding-bottom: 5rem;
 }
 .footer-col {
   width: 25%;

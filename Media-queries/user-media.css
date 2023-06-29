@@ -1,0 +1,70 @@
+/* !X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    #sign-page {
+        min-width: 100%;
+        margin: 50% 0;
+    }
+
+
+    .sign-in-page label {
+        font-size: 2vh;
+    }
+
+    .sign-in-page h2 {
+        margin-top: 0vh;
+        font-size: 30px;
+        margin-bottom: 2vh;
+    }
+
+    .sign-welcome-text h1 {
+        margin-bottom: 2rem;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .sign-welcome-text p {
+        text-align: justify;
+        font-size: 13px;
+        margin-bottom: 10vh;
+    }
+
+    .sign-in-page input {
+        width: 100%;
+        padding: 3px 15px;
+        margin: 7px 0;
+    }
+
+    .sign-in-page button {
+        margin-top: 15px;
+        padding: 12px 44px;
+    }
+
+    .sign-main {
+        padding: 10px 15px 10px 15px;
+        margin: 6px 11px 6px 11px;
+    }
+
+    .sign-welcome-text {
+        margin-right: 87px;
+    }
+
+    .sign-in-page .sign-icon img {
+        margin: 10px;
+    }
+
+}
+
+/* !Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/*  !Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* !Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/*! X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
+
+/* ! XX-Large devices (larger desktops) */

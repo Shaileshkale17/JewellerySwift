@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/root-file.css" />
     <link rel="stylesheet" href="css/trending.css">
+    <link rel="stylesheet" href="Media-queries/media.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
     <title>Jewellery Swift</title>
     <script src="https://kit.fontawesome.com/0f319858a6.js" crossorigin="anonymous"></script>
@@ -18,6 +19,8 @@
     <section id="hero-section" class="hero-section">
         <header>
             <div class="hero">
+                <!-- <div onclick="()"><i class="bi bi-justify"></i></div> -->
+                <button class="navbar-icon hamburger" onclick="open()" id="navbar-icon">☰</button>
                 <div class="section-1">
                     <div class="search-box">
                         <a href="image/jewellery_swift.png"><i class="bi bi-search"></i>
@@ -41,23 +44,41 @@
                 </div>
             </div>
             <!-- <hr> -->
-            <div class="hero-2">
-                <div class="nav">
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="Trending.html">TRENDING</a></li>
-                        <li><a href="bridal.html">BRIDAL</a></li>
-                        <li><a href="designers.html">DESIGNERS</a></li>
-                        <li><a href="timepieces.html">TIMEPIECES</a></li>
-                        <li><a href="jewellery.html">JEWELLERY</a></li>
-                        <li><a href="services.html">SERVICES</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                    </ul>
+            <div id="hero_2" class="hero-2">
+                <div id="navbar" class="nav">
+                        <ul>
+                            <li class="color_li"><a href="index.html">HOME</a></li>
+                            <li class="color_li"><a href="Trending.html">TRENDING</a></li>
+                            <li class="color_li"><a href="bridal.html">BRIDAL</a></li>
+                            <li class="color_li"><a href="designers.html">DESIGNERS</a></li>
+                            <li class="color_li"><a href="timepieces.html">TIMEPIECES</a></li>
+                            <li class="color_li"><a href="jewellery.html">JEWELLERY</a></li>
+                            <li class="color_li"><a href="services.html">SERVICES</a></li>
+                            <li class="color_li"><a href="contact.html">CONTACT</a></li>
+                            <li class="color_li"><a href="about.html">ABOUT</a></li>
+                            <button id="Close" class="Closes" onclick="close()"><i class="bi bi-x"></i></button>
+                        </ul>
                 </div>
             </div>
             <hr />
         </header>
+    </section>
+    <section id="nav-media">
+        <div id="hero-2-media" class="hero-2-media">
+            <div class="nav-media ">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Trending.html">TRENDING</a></li>
+                    <li><a href="bridal.html">BRIDAL</a></li>
+                    <li><a href="designers.html">DESIGNERS</a></li>
+                    <li><a href="timepieces.html">TIMEPIECES</a></li>
+                    <li><a href="jewellery.html">JEWELLERY</a></li>        
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </div>
+        </div>
     </section>
     <section id="main">
         <div class="main-image">
@@ -411,6 +432,7 @@
    </footer>
    <script src="js/loading.js" crossorigin="anonymous"></script>
    <script src="js/dropdow.js"></script>
+   <script src="js/navbar.js"></script>
 </body>
 
 </html>
