@@ -13,14 +13,10 @@ input{
 }
 .navbar-dropdow-main {
     color: var(--color-black);
-    padding-top: 23px;
-    padding-bottom: 32px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 23px;
     position: relative;
     display: inline-block;
-}
-
+}  
 .navbar-dropdow-main ul {
     display: flex;
     flex-direction: row;

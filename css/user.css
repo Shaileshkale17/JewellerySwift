@@ -52,7 +52,7 @@ body{
     background-color: var(--color-272729);
     font-family: var(--font-family-Domine);
     border-color: var(--color-white);
-    color: var(--color-black);
+    color: var(--color-white);
     font-weight: bold;
 }
 

@@ -54,7 +54,7 @@
   }
 
   .section-3 .social-networking a {
-    margin-top: 34px;
+    margin-top: 0;
   }
 
   .hero-section {
@@ -131,10 +131,16 @@
   }
 
   #main {
-    background-position-y: -34vh;
+    background-position-y: -24vh;
     min-height: 20vh;
   }
 
+  #main .shop_name h1 {
+    font-size: 50px;
+  }
+  #main .shop_name p {
+    font-size: 18px;
+  }
   #videos-section .main-text p {
     font-size: 22px;
     padding: 0px 50px;
@@ -146,7 +152,7 @@
   }
 
   #videos-section .video video {
-    width:90%;
+    width: 90%;
     text-align: center;
     margin: 8px 25px;
     /* display: flex; */
@@ -156,7 +162,6 @@
 
   #videos-section .video .video-text {
     padding: 60px;
-    
   }
 
   #videos-section
@@ -238,7 +243,7 @@
     border: none;
     background-color: var(--color-white);
     display: flex;
-    margin: 36px 25px;
+    margin: 0 8px;
     font-size: 39px;
   }
 
@@ -255,7 +260,7 @@
   .section-2 {
     display: flex;
     text-align: center;
-    margin: 0;
+    margin: 16px 0 0 0;
     justify-content: center;
   }
 
@@ -270,6 +275,7 @@
   }
 
   .section-3 {
+    display: block;
     padding-right: 0;
     margin-top: 20px;
   }
@@ -358,13 +364,12 @@
   }
 
   #main {
-    background-position-y: -45vh;
-    background-size: 100%;
-    background-position-x: -312px;
+    background-position-y: -41vh;
+    /* min-height: 20vh; */
   }
 
   #main .shop_name {
-    padding: 50% 0 50% 0;
+    padding: 30% 0 30% 0;
   }
 
   #main .shop_name p {
@@ -387,12 +392,14 @@
 
   #videos-section .video .video-text {
     padding: 60px;
+    font-size: 17px;
   }
+
   #videos-section
     .upcoming_jewellery
     .upcoming_jewellery-boxs
     .upcoming_jewellery-box {
-    width: 13vh;
+    width: 34vh;
   }
 
   #videos-section
@@ -430,9 +437,14 @@
   .footer {
     width: 100%;
   }
+
   .footer-col {
     width: 34%;
     margin-bottom: 30px;
+  }
+
+  .row {
+    flex-wrap: unset;
   }
 
   .copy p {
@@ -446,6 +458,7 @@
     min-width: 44vh;
     min-height: 50vh;
   }
+
   #hero-section {
     min-height: 13vh;
   }
@@ -454,8 +467,8 @@
     border: none;
     background-color: var(--color-white);
     display: flex;
-    margin: 36px 25px;
-    font-size: 39px;
+    margin: 0 6px;
+    font-size: 42px;
   }
 
   .hero-2 .nav ul li a {
@@ -476,7 +489,7 @@
   }
 
   .section-2 img {
-    width: 30vh;
+    width: 50%;
     margin-right: 0;
     margin-left: 0;
   }
@@ -496,7 +509,7 @@
   }
 
   .section-3 .social-networking a {
-    margin-top: 34px;
+    margin-top: 0;
     padding-right: 2rem;
   }
 
@@ -543,10 +556,12 @@
     height: 61%;
     justify-content: center;
   }
+
   .hero-2 .nav ul {
-    width: 56vh;
+    width: 100%;
     height: 40%;
   }
+
   .hero-2 .nav ul a {
     color: var(--color-white);
   }
@@ -577,13 +592,11 @@
   }
 
   #main {
-    background-position-y: -45vh;
-    background-size: 154%;
-    background-position-x: -71px;
+    background-position-y: -50vh;
   }
 
   #main .shop_name {
-    padding: 50% 0 50% 0;
+    padding: 30% 0;
   }
 
   #main .shop_name p {
@@ -607,11 +620,12 @@
   #videos-section .video .video-text {
     padding: 60px;
   }
+
   #videos-section
     .upcoming_jewellery
     .upcoming_jewellery-boxs
     .upcoming_jewellery-box {
-    width: 13vh;
+    width: 33vh;
   }
 
   #videos-section
@@ -642,7 +656,7 @@
     .jewellery-section-main
     .jewellery-section-main-image-box
     .jewellery-section-image-box {
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -652,6 +666,7 @@
     min-width: 100%;
     min-height: 50vh;
   }
+
   #hero-section {
     min-height: 13vh;
   }
@@ -660,7 +675,7 @@
     border: none;
     background-color: var(--color-white);
     display: flex;
-    margin: 36px 25px;
+    margin: 0 25px;
     font-size: 39px;
   }
 
@@ -682,7 +697,7 @@
   }
 
   .section-2 img {
-    width: 30vh;
+    width: 50vh;
     margin-right: 0;
     margin-left: 0;
   }
@@ -697,12 +712,12 @@
   }
 
   .social-networking {
-    display: contents;
+    display: block;
     font-size: 42px;
   }
 
   .section-3 .social-networking a {
-    margin-top: 20px;
+    margin-top: 0;
     padding-right: 2rem;
   }
 
@@ -749,10 +764,12 @@
     height: 61%;
     justify-content: center;
   }
+
   .hero-2 .nav ul {
     width: 56vh;
     height: 40%;
   }
+
   .hero-2 .nav ul a {
     color: var(--color-white);
   }
@@ -789,7 +806,7 @@
   }
 
   #main .shop_name {
-    padding: 50% 0 50% 0;
+    padding: 30% 0;
   }
 
   #main .shop_name p {
@@ -813,11 +830,12 @@
   #videos-section .video .video-text {
     padding: 60px;
   }
+
   #videos-section
     .upcoming_jewellery
     .upcoming_jewellery-boxs
     .upcoming_jewellery-box {
-    width: 13vh;
+    width: 33vh;
   }
 
   #videos-section
@@ -841,7 +859,7 @@
   #jewellery-section .jewellery-section-main .jewellery-section-main-image-box {
     display: grid;
     gap: 40px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   #jewellery-section
@@ -857,48 +875,56 @@
   section {
     min-width: 100%;
   }
+
   #hero-section {
     min-width: 100%;
     min-height: 16vh;
   }
-  .hero {
+
+  /* .hero {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     position: relative;
-  }
+  } */
+
   .section-1 {
     margin-top: 20px;
     padding-left: 21px;
     font-size: 26px;
   }
+
   .section-2 img {
     width: 50vh;
-    margin: 0 ;
+    margin: 0;
   }
+
   .section-3 {
     margin-top: 4rem;
     padding-right: 0;
   }
+
   .social-networking {
     font-size: 55px;
     display: flex;
   }
   .social-networking a {
-    padding: 24px;
+    padding: 5px 26px;
   }
 
   #main {
     min-height: 40vh;
     background-position-y: -37vh;
   }
+  
   #videos-section .main-text p {
-    padding: 10px 79px;
     font-size: 31px;
   }
+
   #videos-section .video video {
     width: 50%;
   }
+
   #videos-section .video .video-text {
     text-align: center;
     padding: 100px 0 100px 100px;
@@ -906,6 +932,7 @@
     animation-name: video-text;
     animation-duration: 10s;
   }
+
   #videos-section .video {
     padding: 70px;
   }
@@ -915,11 +942,11 @@
     .upcoming_jewellery-boxs
     .upcoming_jewellery-box {
     text-align: center;
-    width: 21vh;
+    width: 34vh;
   }
 
   #jewellery-section .jewellery-section-main .jewellery-section-main-image-box {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
