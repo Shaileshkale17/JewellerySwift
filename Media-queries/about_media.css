@@ -131,7 +131,9 @@
   }
 
   #main {
-    background-position-y: -24vh;
+    background-position-y: -3vh;
+    background-size: 84vh;
+    background-position-x: -8vh;
     min-height: 20vh;
   }
 
@@ -141,79 +143,45 @@
   #main .shop_name p {
     font-size: 18px;
   }
+
   #videos-section .main-text p {
     font-size: 22px;
     padding: 0px 50px;
   }
 
   #videos-section .video {
-    padding: 20px;
+    padding: 8px 14px;
     display: grid;
   }
 
   #videos-section .video video {
-    width: 90%;
+    width: 100%;
     text-align: center;
-    margin: 8px 25px;
+    margin: 0;
     /* display: flex; */
     justify-content: center;
     align-items: center;
   }
-
+  .video-text h3 {
+    margin: 28px 0 14px 0;
+  }
   #videos-section .video .video-text {
-    padding: 60px;
+    padding: 0 30px;
   }
 
-  #videos-section
-    .upcoming_jewellery
-    .upcoming_jewellery-boxs
-    .upcoming_jewellery-box {
-    width: 30vh;
-  }
-
-  #videos-section .upcoming_jewellery .upcoming_jewellery-boxs {
+  .info-main {
+    padding: 2px 0;
     display: grid;
-    gap: 30px;
-  }
-
-  #videos-section
-    .upcoming_jewellery
-    .upcoming_jewellery-boxs
-    .upcoming_jewellery-box {
-    width: 24vh;
-  }
-
-  #videos-section
-    .upcoming_jewellery
-    .upcoming_jewellery-boxs
-    .upcoming_jewellery-box
-    img {
-    width: 60%;
-    height: 213px;
-  }
-
-  #videos-section
-    .upcoming_jewellery
-    .upcoming_jewellery-boxs
-    .upcoming_jewellery-box:fullscreen
-    img {
-    width: 60%;
-    height: 213px;
-  }
-
-  #jewellery-section .jewellery-section-main .jewellery-section-main-image-box {
-    display: grid;
-    gap: 40px;
     grid-template-columns: repeat(1, 1fr);
+    justify-content: space-between;
+    align-items: center;
   }
-
-  #jewellery-section
-    .jewellery-section-main
-    .jewellery-section-main-image-box
-    .jewellery-section-image-box {
-    width: 100%;
+  .image-info-text-box img {
+    width: 60vh;
+    height: 50vh;
+    padding-bottom: 21px;
+    object-fit: cover;
   }
-
   /* footer */
   .footer {
     width: 100%;
@@ -231,8 +199,8 @@
 /* !Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) and (min-width: 575.98px) {
   section {
-    min-width: 44vh;
-    min-height: 50vh;
+    /* min-height: 50vh; */
+    min-width: 100%;
   }
 
   #hero-section {
@@ -243,8 +211,8 @@
     border: none;
     background-color: var(--color-white);
     display: flex;
-    margin: 0 8px;
-    font-size: 39px;
+    margin: 26px 12px;
+    font-size: 35px;
   }
 
   .hero-2 .nav ul li a {
@@ -260,12 +228,12 @@
   .section-2 {
     display: flex;
     text-align: center;
-    margin: 16px 0 0 0;
+    /* margin: 0 10vh; */
     justify-content: center;
   }
 
   .section-2 img {
-    width: 30vh;
+    width: 90%;
     margin-right: 0;
     margin-left: 0;
   }
@@ -275,19 +243,16 @@
   }
 
   .section-3 {
-    display: block;
     padding-right: 0;
     margin-top: 20px;
   }
 
   .social-networking {
     display: contents;
-    font-size: 42px;
   }
 
   .section-3 .social-networking a {
-    margin-top: 34px;
-    padding-right: 2rem;
+    margin-top: 0;
   }
 
   .hero-section {
@@ -329,7 +294,7 @@
     animation-duration: 2s;
     backdrop-filter: blur(10px);
     color: var(--color-black);
-    width: 100vh;
+    width: 100%;
     height: 61%;
     justify-content: center;
   }
@@ -364,17 +329,17 @@
   }
 
   #main {
-    background-position-y: 100%;
-    /* min-height: 20vh; */
+    background-position-y: 6vh;
+    background-size: 105vh;
+    background-position-x: -8vh;
+    min-height: 20vh;
   }
 
-  #main .shop_name {
-    padding: 30% 0 30% 0;
+  #main .shop_name h1 {
+    font-size: 50px;
   }
-
   #main .shop_name p {
-    font-size: 27px;
-    margin-bottom: 0;
+    font-size: 18px;
   }
 
   #videos-section .main-text p {
@@ -383,56 +348,263 @@
   }
 
   #videos-section .video {
-    padding: 20px;
+    padding: 8px 14px;
+    display: grid;
   }
 
   #videos-section .video video {
-    width: 50%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 8px 18px 0 66px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
   }
-
+  .video-text h3 {
+    margin: 28px 0 14px 0;
+  }
   #videos-section .video .video-text {
-    padding: 60px;
-    font-size: 17px;
+    padding: 0 30px 0 79px;
   }
 
-  #videos-section
-    .upcoming_jewellery
-    .upcoming_jewellery-boxs
-    .upcoming_jewellery-box {
-    width: 34vh;
-  }
-
-  #videos-section
-    .upcoming_jewellery
-    .upcoming_jewellery-boxs
-    .upcoming_jewellery-box
-    img {
-    width: 60%;
-    height: 213px;
-  }
-
-  #videos-section
-    .upcoming_jewellery
-    .upcoming_jewellery-boxs
-    .upcoming_jewellery-box:fullscreen
-    img {
-    width: 60%;
-    height: 213px;
-  }
-
-  #jewellery-section .jewellery-section-main .jewellery-section-main-image-box {
+  .info-main {
+    padding: 2px 0;
     display: grid;
-    gap: 40px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-between;
+    align-items: center;
   }
-
-  #jewellery-section
-    .jewellery-section-main
-    .jewellery-section-main-image-box
-    .jewellery-section-image-box {
+  .image-info-text-box img {
+    width: 60vh;
+    height: 50vh;
+    padding-bottom: 21px;
+    object-fit: cover;
+  }
+  .text-info-text-box p {
+    padding: 0 10vh 0 13vh;
+    text-indent: 50px;
+    text-align: justify;
+    margin-bottom: 50px;
+    text-shadow: 0 0 black;
+    font-size: 23px;
+  }
+  /* footer */
+  .footer {
     width: 100%;
   }
 
+  .footer-col {
+    padding: 0 64px;
+  }
+
+  .footer-col h4 {
+    font-size: 9px;
+    color: var(--color-white);
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 100;
+    position: relative;
+  }
+
+  .copy p {
+    padding: 0 64px;
+  }
+}
+
+/*  !Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) and (min-width: 767.98px) {
+  section {
+    /* min-height: 50vh; */
+    min-width: 100%;
+  }
+
+  #hero-section {
+    min-height: 13vh;
+  }
+
+  .hero #navbar-icon {
+    border: none;
+    background-color: var(--color-white);
+    display: flex;
+    margin: 26px 12px;
+    font-size: 35px;
+  }
+
+  .hero-2 .nav ul li a {
+    text-decoration: none;
+    color: var(--color-white);
+    cursor: pointer;
+  }
+
+  .section-1 {
+    display: none;
+  }
+
+  .section-2 {
+    display: flex;
+    text-align: center;
+    /* margin: 0 10vh; */
+    justify-content: center;
+  }
+
+  .section-2 img {
+    width: 90%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .section-3 {
+    display: contents;
+  }
+
+  .section-3 {
+    padding-right: 0;
+    margin-top: 20px;
+  }
+
+  .social-networking {
+    display: contents;
+  }
+
+  .section-3 .social-networking a {
+    margin-top: 0;
+  }
+
+  .hero-section {
+    display: inline;
+  }
+
+  .hero-2 .nav {
+    color: var(--color-black);
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #Close {
+    display: inline;
+    background: none;
+    border: none;
+    font-size: 60px;
+  }
+
+  #hero_2 .hero-2 {
+    display: none;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .active {
+    display: inline;
+  }
+
+  .hero-2 .nav ul {
+    position: absolute;
+    display: grid;
+    text-align: center;
+    animation-name: navbar;
+    animation-duration: 2s;
+    backdrop-filter: blur(10px);
+    color: var(--color-black);
+    width: 100%;
+    height: 61%;
+    justify-content: center;
+  }
+
+  .hero-2 .nav ul a {
+    color: var(--color-white);
+  }
+
+  #nav-media {
+    position: absolute;
+  }
+
+  @keyframes navbar {
+    from {
+      transform: translateY(-875px);
+    }
+
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  #hero-2 ul li {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  #hero-2 ul li a {
+    font-weight: bolder;
+    color: var(--color-white);
+    font-family: var(--font-family-Domine);
+  }
+
+  #main {
+    background-position-y: -3vh;
+    background-size: 150vh;
+    background-position-x: -24vh;
+    min-height: 20vh;
+  }
+
+  #main .shop_name h1 {
+    font-size: 50px;
+  }
+  #main .shop_name p {
+    font-size: 18px;
+  }
+
+  #videos-section .main-text p {
+    font-size: 22px;
+    padding: 0px 50px;
+  }
+
+  #videos-section .video {
+    padding: 8px 14px;
+    display: grid;
+  }
+
+  #videos-section .video video {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 8px 47px 0 66px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+  }
+  .video-text h3 {
+    margin: 28px 0 14px 0;
+  }
+  #videos-section .video .video-text {
+    padding: 0 30px 0 79px;
+  }
+
+  .info-main {
+    padding: 2px 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-between;
+    align-items: center;
+  }
+  .image-info-text-box img {
+    width: 60vh;
+    height: 50vh;
+    padding-bottom: 21px;
+    object-fit: cover;
+  }
+  .text-info-text-box p {
+    padding: 0 10vh 0 13vh;
+    text-indent: 50px;
+    text-align: justify;
+    margin-bottom: 50px;
+    text-shadow: 0 0 black;
+    font-size: 23px;
+  }
   /* footer */
   .footer {
     width: 100%;
@@ -452,215 +624,7 @@
   }
 }
 
-/*  !Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) and (min-width: 767.98px) {
-  section {
-    min-width: 44vh;
-    min-height: 50vh;
-  }
-
-  #hero-section {
-    min-height: 13vh;
-  }
-
-  .hero #navbar-icon {
-    border: none;
-    /* background-color: var(--color-black); */
-    display: flex;
-    margin: 0 6px;
-    font-size: 42px;
-  }
-
-  .hero-2 .nav ul li a {
-    text-decoration: none;
-    color: var(--color-white);
-    cursor: pointer;
-  }
-
-  .section-1 {
-    display: none;
-  }
-
-  .section-2 {
-    display: flex;
-    text-align: center;
-    margin: 0;
-    justify-content: center;
-  }
-
-  .section-2 img {
-    width: 50%;
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  .section-3 {
-    display: contents;
-  }
-
-  .section-3 {
-    padding-right: 0;
-    margin-top: 20px;
-  }
-
-  .social-networking {
-    display: contents;
-    font-size: 42px;
-  }
-
-  .section-3 .social-networking a {
-    margin-top: 0;
-    padding-right: 2rem;
-  }
-
-  .hero-section {
-    display: inline;
-  }
-
-  .hero-2 .nav {
-    color: var(--color-black);
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  #Close {
-    display: inline;
-    background: none;
-    border: none;
-    font-size: 60px;
-  }
-
-  #hero_2 .hero-2 {
-    display: none;
-  }
-
-  .nav {
-    display: none;
-  }
-
-  .active {
-    display: inline;
-  }
-
-  .hero-2 .nav ul {
-    position: absolute;
-    display: grid;
-    text-align: center;
-    animation-name: navbar;
-    animation-duration: 2s;
-    backdrop-filter: blur(10px);
-    color: var(--color-black);
-    width: 100vh;
-    height: 61%;
-    justify-content: center;
-  }
-
-  .hero-2 .nav ul {
-    width: 100%;
-    height: 40%;
-  }
-
-  .hero-2 .nav ul a {
-    color: var(--color-white);
-  }
-
-  #nav-media {
-    position: absolute;
-  }
-
-  @keyframes navbar {
-    from {
-      transform: translateY(-875px);
-    }
-
-    to {
-      transform: translateY(0);
-    }
-  }
-
-  #hero-2 ul li {
-    margin-top: 30px;
-    margin-bottom: 10px;
-  }
-
-  #hero-2 ul li a {
-    font-weight: bolder;
-    color: var(--color-white);
-    font-family: var(--font-family-Domine);
-  }
-
-  #main {
-    background-position-y: -50vh;
-  }
-
-  #main .shop_name {
-    padding: 30% 0;
-  }
-
-  #main .shop_name p {
-    font-size: 27px;
-    margin-bottom: 0;
-  }
-
-  #videos-section .main-text p {
-    font-size: 22px;
-    padding: 0px 50px;
-  }
-
-  #videos-section .video {
-    padding: 20px;
-  }
-
-  #videos-section .video video {
-    width: 50%;
-  }
-
-  #videos-section .video .video-text {
-    padding: 60px;
-  }
-
-  #videos-section
-    .upcoming_jewellery
-    .upcoming_jewellery-boxs
-    .upcoming_jewellery-box {
-    width: 33vh;
-  }
-
-  #videos-section
-    .upcoming_jewellery
-    .upcoming_jewellery-boxs
-    .upcoming_jewellery-box
-    img {
-    width: 60%;
-    height: 213px;
-  }
-
-  #videos-section
-    .upcoming_jewellery
-    .upcoming_jewellery-boxs
-    .upcoming_jewellery-box:fullscreen
-    img {
-    width: 60%;
-    height: 213px;
-  }
-
-  #jewellery-section .jewellery-section-main .jewellery-section-main-image-box {
-    display: grid;
-    gap: 40px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  #jewellery-section
-    .jewellery-section-main
-    .jewellery-section-main-image-box
-    .jewellery-section-image-box {
-    width: 80%;
-  }
-}
-
-/* !Large devices (desktops, less than 1200px) */
+/* !Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199.98px) and (min-width: 991.98px) {
   section {
     min-width: 100%;
@@ -716,9 +680,9 @@
     font-size: 42px;
   }
 
-  .section-3 .social-networking a {
+ .section-3 .social-networking a {
     margin-top: 0;
-    padding-right: 2rem;
+    padding: 0 9px 0 0;
   }
 
   .hero-section {
@@ -800,8 +764,8 @@
   }
 
   #main {
-    background-position-y: -70vh;
-    background-size: 100%;
+    background-position-y: 0vh;
+    background-size: 150vh;
     background-position-x: 0;
   }
 
@@ -830,95 +794,169 @@
   #videos-section .video .video-text {
     padding: 60px;
   }
-
-  #videos-section
-    .upcoming_jewellery
-    .upcoming_jewellery-boxs
-    .upcoming_jewellery-box {
-    width: 33vh;
-  }
-
-  #videos-section
-    .upcoming_jewellery
-    .upcoming_jewellery-boxs
-    .upcoming_jewellery-box
-    img {
-    width: 60%;
-    height: 213px;
-  }
-
-  #videos-section
-    .upcoming_jewellery
-    .upcoming_jewellery-boxs
-    .upcoming_jewellery-box:fullscreen
-    img {
-    width: 60%;
-    height: 213px;
-  }
-
-  #jewellery-section .jewellery-section-main .jewellery-section-main-image-box {
-    display: grid;
-    gap: 40px;
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  #jewellery-section
-    .jewellery-section-main
-    .jewellery-section-main-image-box
-    .jewellery-section-image-box {
-    width: 100%;
-  }
 }
 
 /*! X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) and (min-width: 1199.98px) {
   section {
     min-width: 100%;
+    min-height: 50vh;
   }
 
   #hero-section {
-    min-width: 100%;
-    min-height: 16vh;
+    min-height: 13vh;
   }
 
-  /* .hero {
+  .hero #navbar-icon {
+    border: none;
+    background-color: var(--color-white);
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    position: relative;
-  } */
+    margin: 0 25px;
+    font-size: 39px;
+  }
+
+  .hero-2 .nav ul li a {
+    text-decoration: none;
+    color: var(--color-white);
+    cursor: pointer;
+  }
 
   .section-1 {
-    margin-top: 20px;
-    padding-left: 21px;
-    font-size: 26px;
+    display: none;
+  }
+
+  .section-2 {
+    display: flex;
+    text-align: center;
+    margin: 0 12rem;
+    justify-content: center;
   }
 
   .section-2 img {
     width: 50vh;
-    margin: 0;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .section-3 {
-    margin-top: 4rem;
+    display: contents;
+  }
+
+  .section-3 {
     padding-right: 0;
+    margin-top: 20px;
   }
 
   .social-networking {
-    font-size: 55px;
-    display: flex;
+    display: block;
+    font-size: 42px;
   }
-  .social-networking a {
-    padding: 5px 26px;
+
+  .section-3 .social-networking a {
+    margin-top: 0;
+    padding: 0 9px 0 0;
+  }
+
+  .hero-section {
+    display: inline;
+  }
+
+  .hero-2 .nav {
+    color: var(--color-black);
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #Close {
+    display: inline;
+    background: none;
+    border: none;
+    font-size: 60px;
+  }
+
+  #hero_2 .hero-2 {
+    display: none;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .active {
+    display: inline;
+  }
+
+  .hero-2 .nav ul {
+    position: absolute;
+    display: grid;
+    text-align: center;
+    animation-name: navbar;
+    animation-duration: 2s;
+    backdrop-filter: blur(10px);
+    color: var(--color-black);
+    width: 100vh;
+    height: 61%;
+    justify-content: center;
+  }
+
+  .hero-2 .nav ul {
+    width: 56vh;
+    height: 40%;
+  }
+
+  .hero-2 .nav ul a {
+    color: var(--color-white);
+  }
+
+  #nav-media {
+    position: absolute;
+  }
+
+  @keyframes navbar {
+    from {
+      transform: translateY(-875px);
+    }
+
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  #hero-2 ul li {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  #hero-2 ul li a {
+    font-weight: bolder;
+    color: var(--color-white);
+    font-family: var(--font-family-Domine);
   }
 
   #main {
-    min-height: 40vh;
-    background-position-y: -37vh;
+    background-position-y: 0vh;
+    background-size: 163vh;
+    background-position-x: 0;
   }
-  
+
+  #main .shop_name {
+    padding: 20% 0;
+  }
+
+  #main .shop_name p {
+    font-size: 27px;
+    margin-bottom: 0;
+  }
+
   #videos-section .main-text p {
-    font-size: 31px;
+    font-size: 22px;
+    padding: 0px 50px;
+  }
+
+  #videos-section .video {
+    padding: 20px;
   }
 
   #videos-section .video video {
@@ -926,27 +964,7 @@
   }
 
   #videos-section .video .video-text {
-    text-align: center;
-    padding: 100px 0 100px 100px;
-    font-size: 31px;
-    animation-name: video-text;
-    animation-duration: 10s;
-  }
-
-  #videos-section .video {
-    padding: 70px;
-  }
-
-  #videos-section
-    .upcoming_jewellery
-    .upcoming_jewellery-boxs
-    .upcoming_jewellery-box {
-    text-align: center;
-    width: 34vh;
-  }
-
-  #jewellery-section .jewellery-section-main .jewellery-section-main-image-box {
-    grid-template-columns: repeat(4, 1fr);
+    padding: 60px;
   }
 }
 

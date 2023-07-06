@@ -3,10 +3,12 @@
 
     #sign-page {
         min-width: 100%;
-        margin: 44% 0;
+        margin: 26% 0;
     }
 
-
+    .sign-in-page {
+        margin-left: 26px;
+    }
     .sign-in-page label {
         font-size: 2vh;
     }
@@ -15,6 +17,7 @@
         margin-top: 0vh;
         font-size: 30px;
         margin-bottom: 2vh;
+        text-align: center;
     }
 
     .sign-welcome-text h1 {
@@ -25,17 +28,27 @@
 
     .sign-welcome-text p {
         text-align: justify;
-        font-size: 13px;
+        font-size: auto;
         margin-bottom: 10vh;
+        width: 100%;
+        margin: 0 2% 5% 5%;
     }
 
     .sign-in-page input {
-        width: 100%;
-        padding: 3px 15px;
-        margin: 7px 0;
+        width: 64%;
+        display: block;
+        padding: 1px 15px;
+        margin: 10px 0 12px 9px;
         color: var(--color-white);
     }
-
+    .bi-eye-slash {
+        position: absolute;
+        margin: -9% 53%;
+    }
+    .bi-eye {
+        position: absolute;
+        margin: -9% 53%;
+    }
     .sign-in-page button {
         margin-top: 15px;
         padding: 12px 44px;
@@ -44,10 +57,13 @@
     .sign-main {
         padding: 10px 15px 10px 15px;
         margin: 0px 11px 0px 11px;
+        display: grid;
+        align-content: space-around;
     }
 
     .sign-welcome-text {
-        margin-right: 87px;
+        margin-right: auto;
+        text-align: center;
     }
 
     .sign-in-page .sign-icon img {
