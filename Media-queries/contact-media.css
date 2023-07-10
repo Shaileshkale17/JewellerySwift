@@ -108,11 +108,11 @@
 
   @keyframes navbar {
     from {
-      transform: translateY(-875px);
+      transform: translateX(-875px);
     }
 
     to {
-      transform: translateY(0);
+      transform: translateX(0);
     }
   }
 
@@ -177,6 +177,15 @@
   .contact-text textarea {
     padding: 5px 20px;
   }
+
+  .map-box{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .map iframe{
+ width: 373px; 
+}
   /* footer */
   .footer {
     width: 100%;
@@ -301,11 +310,11 @@
     
       @keyframes navbar {
         from {
-          transform: translateY(-875px);
+          transform: translateX(-875px);
         }
     
         to {
-          transform: translateY(0);
+          transform: translateX(0);
         }
       }
     
@@ -493,11 +502,11 @@
     
       @keyframes navbar {
         from {
-          transform: translateY(-875px);
+          transform: translateX(-875px);
         }
     
         to {
-          transform: translateY(0);
+          transform: translateX(0);
         }
       }
     

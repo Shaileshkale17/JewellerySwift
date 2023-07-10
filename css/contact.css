@@ -74,3 +74,19 @@ button {
 #submit {
   margin-right: 29px;
 }
+
+
+/* map */
+
+.map-box{
+  display: flex;
+}
+
+/* .map iframe{
+  width: 59rem; 
+}*/
+
+.map-text{
+  text-align: center;
+    margin: 8% 9%;
+}

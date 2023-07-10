@@ -1,0 +1,127 @@
+/* !X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
+
+    #sign-page {
+        min-width: 100%;
+        margin: 7% 0;
+    }
+
+    .sign-in-page {
+        margin-left: 26px;
+    }
+    .main_sign_div {
+        margin: 7% 8%;
+        padding: 30px 30px;
+        text-align: center;
+        background-image: url(../image/B-2.jpg);
+        /* color: var(--color-white); */
+    }
+
+    .main_sign_div .sign_text_div .icon-box .google-box {
+        margin: 12px 26%;
+    }
+    .main_sign_div .sign_text_div .icon-box .facebook-box  {
+        margin: 12px 24%;
+    }
+
+}
+
+/* !Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) and (min-width: 575.98px) {
+    
+    #sign-page {
+        min-width: 100%;
+        margin: 7% 0;
+    }
+
+    .sign-in-page {
+        margin-left: 26px;
+    }
+    .main_sign_div {
+        margin: 7% 8%;
+        padding: 30px 30px;
+        text-align: center;
+        background-image: url(../image/B-2.jpg);
+        /* color: var(--color-white); */
+    }
+
+    .main_sign_div .sign_text_div .icon-box .google-box {
+        margin: 12px 33%;
+    }
+    .main_sign_div .sign_text_div .icon-box .facebook-box  {
+        margin: 12px 31%;
+    }
+}
+
+/*  !Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) and (min-width: 767.98px) {
+    #sign-page {
+        min-width: 100%;
+        margin: 7% 0;
+    }
+
+    .sign-in-page {
+        margin-left: 26px;
+    }
+    .main_sign_div {
+        margin: 7% 8%;
+        padding: 30px 30px;
+        text-align: center;
+        background-image: url(../image/B-2.jpg);
+        /* color: var(--color-white); */
+    }
+
+    /* .main_sign_div .sign_text_div .icon-box .google-box {
+        margin: 12px 33%;
+    }
+    .main_sign_div .sign_text_div .icon-box .facebook-box  {
+        margin: 12px 31%;
+    } */
+}
+
+/* !Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) and (min-width: 991.98px) {
+    #sign-page {
+        min-width: 100%;
+        margin: 7% 0;
+    }
+
+    .sign-in-page {
+        margin-left: 26px;
+    }
+    .main_sign_div {
+        margin: 7% 8%;
+        padding: 30px 30px;
+        text-align: center;
+        background-image: url(../image/B-2.jpg);
+        /* color: var(--color-white); */
+    }
+}
+
+/*! X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) and (min-width: 1199.98px) {
+    #sign-page {
+        min-width: 100%;
+        margin: 7% 0;
+    }
+
+    .sign-in-page {
+        margin-left: 26px;
+    }
+    .main_sign_div {
+        margin: 7% 8%;
+        padding: 30px 30px;
+        text-align: center;
+        background-image: url(../image/B-2.jpg);
+        /* color: var(--color-white); */
+    }
+
+    .main_sign_div .sign_text_div .icon-box .google-box {
+        margin: 10px 38% 10px 42%;
+    }
+    .main_sign_div .sign_text_div .icon-box .facebook-box {
+        margin: 10px 38% 10px 42%;
+    }
+}
+
+/* ! XX-Large devices (larger desktops) */

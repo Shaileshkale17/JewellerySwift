@@ -1,0 +1,60 @@
+
+/* first div in section */
+#order-section{
+    display: flex;
+    padding: 0 32px;
+    gap: 10rem;
+}
+
+.containers {
+    padding: 15px;
+    display: flex;
+  }
+
+  .containers div {
+    margin: 10px;
+    display: grid;
+  }
+
+  .pictures {
+    width: 64px;
+  }
+
+  .pictures img {
+    width: 100px;
+    margin-bottom: 13px;
+  }
+
+  .pictures {
+    position: relative;
+    width: 99px;
+  }
+  .picture img {
+    width: 60vh;
+    height: 60vh;
+  }
+
+  .img-active {
+    box-shadow: 0 0 10px var(--color-logo), 0 0 10px  var(--color-logo), 0 0 10px  var(--color-logo);
+  }
+  
+  /* -------------div-section-2------------- */
+
+  .review h1{
+    padding-top: 7px;
+  }
+  .review p{
+    padding: 7px 0;
+  }
+  
+
+.stars i{
+  color: #e6e6e6;
+}
+.checked{
+  color: #ffa41c;
+}
+
+.package .price h3{
+  margin: 14px 0 0 0;
+}

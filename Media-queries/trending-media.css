@@ -109,11 +109,11 @@
 
   @keyframes navbar {
     from {
-      transform: translateY(-875px);
+      transform: translateX(-875px);
     }
 
     to {
-      transform: translateY(0);
+      transform: translateX(0);
     }
   }
 
@@ -290,11 +290,11 @@
 
   @keyframes navbar {
     from {
-      transform: translateY(-875px);
+      transform: translateX(-875px);
     }
 
     to {
-      transform: translateY(0);
+      transform: translateX(0);
     }
   }
 
@@ -476,11 +476,11 @@
 
   @keyframes navbar {
     from {
-      transform: translateY(-875px);
+      transform: translateX(-875px);
     }
 
     to {
-      transform: translateY(0);
+      transform: translateX(0);
     }
   }
 
@@ -644,11 +644,11 @@
 
   @keyframes navbar {
     from {
-      transform: translateY(-875px);
+      transform: translateX(-875px);
     }
 
     to {
-      transform: translateY(0);
+      transform: translateX(0);
     }
   }
 
@@ -741,6 +741,8 @@
   #jewellery-section .jewellery-section-main .jewellery-section-main-image-box {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  
 }
 
 /* ! XX-Large devices (larger desktops) */

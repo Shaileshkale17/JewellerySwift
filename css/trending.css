@@ -14,13 +14,13 @@ input{
 .navbar-dropdow-main {
     color: var(--color-black);
     padding: 23px;
-    position: relative;
+    /* position: relative; */
     display: inline-block;
 }  
 .navbar-dropdow-main ul {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
     font-size: larger;
 }
 
@@ -87,7 +87,7 @@ input{
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     margin-top: 2rem;
-    left: 23rem;
+    left: 55%;
 }
 
 .navbar-dropdow a {

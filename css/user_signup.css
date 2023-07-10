@@ -1,0 +1,134 @@
+/* style */
+/* body {
+    overflow-y: hidden;
+} */
+
+.sign-page {
+    display: flex;
+    justify-content: center;
+}
+
+.main_sign_div {
+    margin: 7% 28%;
+    padding: 30px 30px;
+    text-align: center;
+    background-image: url("../image/B-2.jpg");
+}
+
+.main_sign_div h1 {
+    color: var(--color-white);
+    font-size: 50px;
+    margin: 0 0 30px 0;
+}
+
+.main_sign_div p {
+    color: var(--color-white);
+    font-size: var(--font-size);
+}
+
+.main_sign_div .sign_text_div {
+    gap: 30px;
+}
+
+/* SignIn Online */
+.main_sign_div .sign_text_div .icon-box {
+    margin: 30px 0;
+}
+
+
+.main_sign_div .sign_text_div .icon-box .google-box {
+    display: flex;
+    align-items: center;
+    margin: 10px 35% 10px 37%;
+    padding: 5px;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    cursor: pointer;
+}
+
+.main_sign_div .sign_text_div .icon-box .facebook-box {
+    display: flex;
+    align-items: center;
+    margin: 10px 35% 10px 37%;
+    padding: 5px;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    cursor: pointer;
+}
+.main_sign_div .sign_text_div .icon-box .google-box .text{
+    font-size: 54%;
+}
+    .main_sign_div .sign_text_div .icon-box .facebook-box
+
+/* sign in form */
+
+.sign_form_div {
+    margin: 30px 0;
+    color: var(--color-white);
+    font-size: var(--font-size);
+}
+
+.sign_form_div h2 {
+    margin: 30px 0;
+    font-size: 50px;
+}
+
+.sign_form_div input {
+    width: 40%;
+    margin: 28px 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid var(--color-white);
+    font-family: var(--font-family-Domine);
+    border-color: var(--color-white);
+    color: var(--color-white);
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-white);
+}
+
+::placeholder {
+    color: var(--color-white);
+}
+
+button {
+    padding: 10px 20px;
+    border: 2px solid var(--color-black);
+    border-radius: 10%;
+    background-color: var(--color-white);
+    transition: 1s linear;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid var(--color-rgbg);
+    background-color: var(--color-rgb);
+    /*!<--not color in defind */
+    color: var(--color-white);
+}
+
+/*
+ 
+!if password is blank time using on button 
+
+animation: slide-out 0.5s forwards;
+    animation: slide-in 0.5s forwards;
+    -webkit-animation: slide-in 0.5s forwards;
+    *<--button 
+@keyframes slide-in {
+    100% { transform: translateX(0%); }
+}
+@-webkit-keyframes slide-in {
+    100% { -webkit-transform: translateX(0%); }
+}
+*button--> 
+@keyframes slide-out {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+}
+
+@-webkit-keyframes slide-out {
+    0% { -webkit-transform: translateX(0%); }
+    100% { -webkit-transform: translateX(-100%); }
+}*/

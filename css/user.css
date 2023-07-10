@@ -45,8 +45,8 @@ body {
 
 .sign-in-page input {
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  /* padding: 12px 20px; */
+  margin: 28px 0;
   /* box-sizing: border-box; */
   border: 0;
   outline: 0;
@@ -60,32 +60,38 @@ body {
   font-weight: bold;
 }
 /* password show */
-.bi-eye {
+
+.i-con {
   position: absolute;
-    margin: 21px -26px;
+  margin: 24px 311px;
 }
 
-.on{
+
+.bi-eye {
   display: none;
 }
 
+
 .bi-eye-slash {
   position: absolute;
-    margin: 21px -26px;
+  /* margin: 21px -26px; */
 }
 .sign-in-page button {
   margin-top: 21px;
   padding: 14px 70px;
   size: 3vh;
-  border: 2px solid var(--color-green);
+  border: 2px solid var(--color-black);
   border-radius: 26px 26px;
   color: var(--color-black);
+  background-color: var(--color-white);
+  transition: 1s linear;
 }
 
 .sign-in-page button:hover {
-  border: 2px solid var(--color-white);
-  background-color: var(--color-green);
+  border: 2px solid var(--color-rgbg);
+  background-color: var(--color-rgb);/*<--not color in defind*/
   border-radius: 26px 26px;
+  color: var(--color-white);
 }
 
 .sign-icon {

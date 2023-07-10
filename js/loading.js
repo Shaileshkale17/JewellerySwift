@@ -1,4 +1,6 @@
 let loader = document.getElementById("preloader");
-window.addEventListener("load",function(){
-    loader.style.display="none"
-})
+window.addEventListener("load", function () {
+  if (loader) {
+}
+loader.style.display = "none";
+});

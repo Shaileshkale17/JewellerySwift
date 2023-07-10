@@ -94,7 +94,7 @@
     text-align: center;
     animation-name: navbar;
     animation-duration: 2s;
-    backdrop-filter: blur(10px);
+    background-color: var(--color-logo);
     color: var(--color-black);
     width: 100%;
     height: 61%;
@@ -111,11 +111,11 @@
 
   @keyframes navbar {
     from {
-      transform: translateY(-875px);
+      transform: translateX(-875px);
     }
 
     to {
-      transform: translateY(0);
+      transform: translateX(0);
     }
   }
 
@@ -292,7 +292,7 @@
         text-align: center;
         animation-name: navbar;
         animation-duration: 2s;
-        backdrop-filter: blur(10px);
+        background-color: var(--color-logo);
         color: var(--color-black);
         width: 100%;
         height: 61%;
@@ -309,11 +309,11 @@
     
       @keyframes navbar {
         from {
-          transform: translateY(-875px);
+          transform: translateX(-875px);
         }
     
         to {
-          transform: translateY(0);
+          transform: translateX(0);
         }
       }
     
@@ -489,7 +489,7 @@
         text-align: center;
         animation-name: navbar;
         animation-duration: 2s;
-        backdrop-filter: blur(10px);
+        background-color: var(--color-logo);
         color: var(--color-black);
         width: 100%;
         height: 61%;
@@ -684,7 +684,7 @@
         text-align: center;
         animation-name: navbar;
         animation-duration: 2s;
-        backdrop-filter: blur(10px);
+        background-color: var(--color-logo);
         color: var(--color-black);
         width: 100%;
         height: 61%;
@@ -879,7 +879,7 @@
         text-align: center;
         animation-name: navbar;
         animation-duration: 2s;
-        backdrop-filter: blur(10px);
+        background-color: var(--color-logo);
         color: var(--color-black);
         width: 100%;
         height: 61%;
@@ -896,11 +896,11 @@
     
       @keyframes navbar {
         from {
-          transform: translateY(-875px);
+          transform: translateX(-875px);
         }
     
         to {
-          transform: translateY(0);
+          transform: translateX(0);
         }
       }
     

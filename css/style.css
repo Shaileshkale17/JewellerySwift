@@ -38,10 +38,13 @@ h4 {
 }
 
 h5 {
-  font-size: 31px;
+  font-size: 22px;
   padding: 10px 0;
 }
 
+.Closes{
+  color: var(--color-white);
+}
 /* header section */
 #hero-section {
   min-width: 100vh;
@@ -166,13 +169,14 @@ section:nth-child(1) {
 #main {
   background-color: var(--color-white);
   overflow-x: hidden;
+  min-height: 95vh;
 }
 
 #main {
   background-image: url("../image/jewellery.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position-y: -107vh;
+  background-position-y: -79vh;
   background-size: cover;
 }
 
@@ -181,7 +185,7 @@ section:nth-child(1) {
   text-align: center;
   flex-direction: column;
   font-size: 3rem;
-  padding-top: 18%;
+  padding: 22% 0;
   overflow-x: hidden;
   background: rgba(0, 0, 0, 0.5);
 }
@@ -196,7 +200,6 @@ section:nth-child(1) {
 
 #main .shop_name p {
   font-size: 30px;
-  margin-bottom: 27%;
 }
 
 /* videos-section */
@@ -229,7 +232,6 @@ section:nth-child(1) {
 
 #videos-section .main-text p {
   font-size: var(--font-size);
-  /* text-shadow: 0 0 black; */
 }
 
 #videos-section .video {
@@ -300,6 +302,7 @@ section:nth-child(1) {
   margin-top: 3rem;
   margin-bottom: 3rem;
   transition: 2s;
+  cursor: pointer;
 }
 
 #videos-section .upcoming_jewellery .upcoming_jewellery-boxs .upcoming_jewellery-box:hover {
@@ -350,6 +353,7 @@ section:nth-child(1) {
   padding-top: 10px;
   padding-bottom: 25px;
   transition: 2s;
+  cursor: pointer;
 }
 
 #jewellery-section .jewellery-section-main .jewellery-section-main-image-box .jewellery-section-image-box:hover {
