@@ -1,60 +1,245 @@
-
 /* first div in section */
-#order-section{
-    display: flex;
-    padding: 0 32px;
-    gap: 10rem;
+#order-section {
+  display: flex;
+  padding: 0 32px;
+  gap: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+
 }
 
 .containers {
-    padding: 15px;
-    display: flex;
-  }
+  padding: 15px;
+  display: flex;
+}
 
-  .containers div {
-    margin: 10px;
-    display: grid;
-  }
+.containers div {
+  margin: 10px;
+  display: grid;
+}
 
-  .pictures {
-    width: 64px;
-  }
+.pictures {
+  width: 64px;
+}
 
-  .pictures img {
-    width: 100px;
-    margin-bottom: 13px;
-  }
+.pictures img {
+  width: 100px;
+  margin-bottom: 13px;
+}
 
-  .pictures {
-    position: relative;
-    width: 99px;
-  }
-  .picture img {
-    width: 60vh;
-    height: 60vh;
-  }
+.pictures {
+  position: relative;
+  width: 99px;
+}
 
-  .img-active {
-    box-shadow: 0 0 10px var(--color-logo), 0 0 10px  var(--color-logo), 0 0 10px  var(--color-logo);
-  }
-  
-  /* -------------div-section-2------------- */
+.picture img {
+  width: 60vh;
+  height: 60vh;
+}
 
-  .review h1{
-    padding-top: 7px;
-  }
-  .review p{
-    padding: 7px 0;
-  }
-  
+.img-active {
+  box-shadow: 0 0 10px var(--color-logo), 0 0 10px var(--color-logo),
+    0 0 10px var(--color-logo);
+}
 
-.stars i{
+/* -------------div-section-2------------- */
+
+.review h1 {
+  padding-top: 7px;
+}
+
+.review p {
+  padding: 7px 0;
+}
+
+.stars i {
   color: #e6e6e6;
 }
-.checked{
+
+.checked {
   color: #ffa41c;
 }
 
-.package .price h3{
+.package .price h3 {
   margin: 14px 0 0 0;
+}
+
+.package .price p {
+  margin: 0 0 14px 0;
+}
+
+.package .gross-weigth select {
+  margin: 0 5px;
+}
+
+.package .gross-weigth label {
+  font-size: 17px;
+}
+
+.package .Gold-Rarity p {
+  font-size: 17px;
+}
+
+.package .Gold-Rarity p a {
+  text-decoration: none;
+  color: var(--color-logo);
+}
+
+.package .Buying-pay a button {
+  padding: 15px;
+  margin: 20px 20px 20px 0;
+  border-radius: 26px 26px;
+  border-color: var(--color-block);
+  background-color: var(--color-logo);
+  color: var(--color-white);
+}
+
+.package .Buying-pay a button:hover {
+  border: 2px solid var(--color-rgbg);
+  background-color: var(--color-rgb);
+  /*<--not color in defind*/
+  border-radius: 26px 26px;
+  color: var(--color-block);
+}
+
+.package .county {
+  margin: 17px 0;
+}
+
+.package .county #pincode {
+  margin: 0 0 0 17px;
+}
+
+.package .county #numberField {
+  width: 56px;
+}
+
+.package .purity-guaranteed {
+  margin: 0 0 20px 0;
+}
+
+.package .purity-guaranteed p {
+  font-size: 17px;
+}
+
+.package .purity-guaranteed p span {
+  margin: 0 17px 0 0;
+}
+
+.package .chating-user h3 {
+  margin: 20px 0 6px 0;
+}
+
+.package .chating-user p {
+  font-size: 17px;
+  margin: 0 0 9px 0;
+}
+
+.package .chating-user button {
+  padding: 15px;
+  margin: 20px 20px 20px 0;
+  border-radius: 26px 26px;
+  border-color: var(--color-block);
+  background-color: var(--color-logo);
+  color: var(--color-white);
+}
+
+.package .chating-user button:hover {
+  border: 2px solid var(--color-rgbg);
+  background-color: var(--color-rgb);
+  /*<--not color in defind*/
+  border-radius: 26px 26px;
+  color: var(--color-block);
+}
+
+/* !image-page */
+#image-page .product-image img {
+  width: 100%;
+}
+
+.Product-Details {
+  display: flex;
+  padding: 0 30px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.Product-Details .Product-Details-text .box-review-text h3 {
+  margin: 62px 0 17px 0;
+}
+
+.Product-Details .Product-Details-text .box-review-text p {
+  width: 80vh;
+}
+
+.Product-Details .Product-Details-text .box-review-text h4 {
+  margin: 12px 0;
+}
+
+.Product-Details .Product-Details-text .box-review-text h6 {
+  font-size: 17px;
+  margin: 0 0 15px 0;
+}
+
+.Product-Details .Product-Details-text .box-review-text h6 samp {
+  font-weight: 100;
+}
+
+/* review-page */
+#review-page {
+  padding: 0 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#review-page .review {
+  margin: 0 102px;
+}
+
+#review-page .review .box-review {
+  display: flex;
+  margin: 20px 90px;
+}
+
+.review .box-review img {
+  width: 80px;
+  height: 80px;
+  border-radius: 63px;
+  border: 2px solid var(--color-logo);
+  object-fit: cover;
+}
+.review .box-review .box-review-text {
+  margin: 0 0 0 28px
+}
+.review .box-review .box-review-text .name-date-user{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review .box-review .box-review-text .name-date-user .user-date{
+  margin-right: -29rem;
+}
+.review .box-review .box-review-text .like{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review .box-review .box-review-text .like .share h5 i{
+  margin-right: 15px;
+}
+.review .box-review .box-review-text .like .share h5:hover{
+  color: var( --color-blue);
+}
+.review .box-review .box-review-text .thumbs{
+  margin-right: -29rem;
+}
+.review .box-review .box-review-text .thumbs .bi-hand-thumbs-down-fill{
+  padding: 0 0px 0 15px;
+}
+.review .box-review .box-review-text .thumbs i:hover{
+  color: var( --color-blue);
 }
