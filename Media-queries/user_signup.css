@@ -18,10 +18,14 @@
     }
 
     .main_sign_div .sign_text_div .icon-box .google-box {
-        margin: 12px 26%;
+        margin: 6px 7%;
     }
     .main_sign_div .sign_text_div .icon-box .facebook-box  {
-        margin: 12px 24%;
+        margin: 6px 7%;
+    }
+
+    .sign_form_div input {
+        width: 85%;
     }
 
 }

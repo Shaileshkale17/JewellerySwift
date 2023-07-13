@@ -58,7 +58,7 @@
 .main_sign_div .sign_text_div .icon-box .google-box .text{
     font-size: 54%;
 }
-    .main_sign_div .sign_text_div .icon-box .facebook-box
+    /* .main_sign_div .sign_text_div .icon-box .facebook-box */
 
 /* sign in form */
 
@@ -71,6 +71,10 @@
 .sign_form_div h2 {
     margin: 30px 0;
     font-size: 50px;
+    color: var(--color-white);
+}
+.sign_form_div label {
+    color: var(--color-white);
 }
 
 .sign_form_div input {
