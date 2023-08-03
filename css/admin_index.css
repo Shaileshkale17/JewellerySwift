@@ -124,3 +124,22 @@ td {
   width: 60px;
   height: 60px;
 }
+.ProductList #table-body tr td button{
+  margin: 0 11px 0 0;
+  padding: 8px;
+  color: var(--color-green);
+  border: hidden;
+  background-color: var(--color-white);
+  font-size: 30px;
+cursor: pointer;
+}
+.ProductList #table-body tr td button .bi-trash3{
+  /* margin: 0 11px 0 0;
+  padding: 8px;
+  color: var(--color-green);
+  border: hidden;
+  background-color: var(--color-white);
+  font-size: 30px;
+cursor: pointer; */
+color: var(--color-red);
+}

@@ -603,6 +603,11 @@
   .contact-form {
     height: 52rem;
   }
+   /* not find style  */
+   .hero-2 .nav ul {
+    width: 100%;
+    height: 87%;
+}
 }
 
 /* ! XX-Large devices (larger desktops) */

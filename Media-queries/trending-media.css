@@ -691,6 +691,11 @@
   #jewellery-section .jewellery-section-main .jewellery-section-main-image-box .jewellery-section-image-box {
     width: 100%;
   }
+   /* not find style  */
+   .hero-2 .nav ul {
+    width: 100%;
+    height: 87%;
+}
 }
 
 /*! X-Large devices (large desktops, less than 1400px) */

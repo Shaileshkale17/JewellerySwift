@@ -1,0 +1,24 @@
+#chart {
+    padding: 0 20vh;
+}
+
+.chart-container {
+    margin: auto;
+    /* display: flex; */
+    justify-self: center;
+    padding: 20px;
+}
+canvas {
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.bi-graph-up-arrow{
+    color: var(--color-green);
+    font-size: 30px;
+}
+.bi-graph-down-arrow{
+    color: var(--color-red);
+    font-size: 30px;
+}

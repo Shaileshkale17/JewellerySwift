@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="image/jewellery-swift-logos_white.png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/root-file.css" />
+  <link rel="stylesheet" href="css/admin_index.css" />
+  <link rel="stylesheet" href="css/ToDayPrice.css" />
+  <link rel="stylesheet" href="Media-queries/media.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.5/css/jquery.dataTables.css" />
+
+  <title>Jewellery Swift</title>
+  <script src="https://kit.fontawesome.com/0f319858a6.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+
+<body>
+  <!-- !<div id="preloader"></div> -->
+  <section id="hero-section" class="hero-section">
+    <header>
+      <div class="hero">
+        <button class="navbar-icon hamburger" onclick="open()" id="navbar-icon">
+          ☰
+        </button>
+        <div class="section-1">
+          <div class="search-box">
+            <a href="image/jewellery_swift.png"><i class="bi bi-search"></i>
+              <label for="search">Search Jewellery</label></a>
+          </div>
+          <div class="contact">
+            <p><i class="bi bi-telephone-fill"></i>(925)-142536</p>
+            <p id="child-even">
+              <i class="bi bi-geo-alt"></i>Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+        <div class="section-2">
+          <a href="index.html"><img src="image/jewellery_swift.png" alt="jewellery swift" /></a>
+        </div>
+        <div class="section-3">
+          <div class="social-networking">
+            <a href="cart.html"><i class="bi bi-cart-dash"></i></a>
+            <a href="user.html"><i class="bi bi-person-circle"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- <hr> -->
+      <div id="hero_2" class="hero-2">
+        <div id="navbar" class="nav">
+          <ul>
+            <li class="color_li"><a href="admin_index.html">PRODUCT</a></li>
+            <li class="color_li"><a href="admin-order.html">ORDER</a></li>
+            <li class="color_li">
+              <a href="ToDayPrice.html">TO DAY PRICE</a>
+            </li>
+            <li class="color_li">
+              <a href="TotalSales.html">TOTALE SALES</a>
+            </li>
+            <li class="color_li"><a href="timepieces.html">TIMEPIECES</a></li>
+            <li class="color_li"><a href="jewellery.html">JEWELLERY</a></li>
+            <li class="color_li"><a href="services.html">SERVICES</a></li>
+            <li class="color_li"><a href="contact.html">CONTACT</a></li>
+            <li class="color_li"><a href="about.html">ABOUT</a></li>
+            <button id="Close" class="Closes" onclick="close()">
+              <i class="bi bi-x"></i>
+            </button>
+          </ul>
+        </div>
+      </div>
+      <hr />
+    </header>
+  </section>
+  <section id="chart">
+    <div class="chart-container">
+      <div class="chart-container-1">
+        <canvas id="myChart"></canvas>
+      </div>
+      <div class="chart-container-2">
+        <div class="ProductList">
+          <h2>Price List</h2>
+          <table id="myTable" class="display">
+            <thead>
+              <tr>
+                <th>S No</th>
+                <th>Type</th>
+                <th>Price</th>
+                <th>Date</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="table-body-ToDay">
+              <tr>
+                <td>1</td>
+                <td>Gold</td>
+                <td>&#8377; 10,000</td>
+                <td>24/07/2023</td>
+                <td>
+                  <i class="bi bi-graph-up-arrow" id="Gold-up-arrow"></i>
+                  <i class="bi bi-graph-down-arrow" id="Gold-down-arrow"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Silver</td>
+                <td>&#8377; 10,000</td>
+                <td>24/07/2023</td>
+                <td>
+                  <i class="bi bi-graph-up-arrow" id="Silver-up-arrow"></i>
+                  <i class="bi bi-graph-down-arrow" id="Silver-down-arrow"></i>
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Palladium</td>
+                <td>&#8377; 10,000</td>
+                <td>24/07/2023</td>
+                <td>
+                  <i class="bi bi-graph-up-arrow" id="Palladium-up-arrow"></i>
+                  <i class="bi bi-graph-down-arrow" id="Palladium-down-arrow"></i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">watch</a></li>
+            <li><a href="#">bag</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">dress</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copy">
+      <p>&#169; Copyright 2023-2024 by Refsnes Data. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="js/ToDayPrice.js" crossorigin="anonymous"></script>
+  <script src="js/order-Box.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.js"></script>
+  <script src="js/loading.js" crossorigin="anonymous"></script>
+  <script src="js/admin_index.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
