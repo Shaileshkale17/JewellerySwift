@@ -565,7 +565,7 @@
     background-image: url("../image/contact-image.jpg");
     background-repeat: no-repeat;
     /* background-size: auto; */
-    height: 78vh;
+    height: auto;
     color: var(--color-white);
     /* object-fit: cover; */
   }

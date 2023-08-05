@@ -88,5 +88,6 @@ button {
 
 .map-text{
   text-align: center;
-    margin: 8% 9%;
+    margin: 8% 0;
+    text-align: justify;
 }
