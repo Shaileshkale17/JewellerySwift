@@ -1,3 +1,3 @@
 function BoxClick() {
-    location.assign("../order.html");
+    location.assign("order.html");
 }
