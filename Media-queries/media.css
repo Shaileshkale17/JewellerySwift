@@ -593,6 +593,7 @@
 
   #main {
     background-position-y: -50vh;
+    min-height: auto;
   }
 
   #main .shop_name {
