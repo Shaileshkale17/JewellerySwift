@@ -614,7 +614,7 @@
   }
 
   .text-info-text-box p {
-    padding: 0 10vh 0 13vh;
+    /* padding: 0 10vh 0 13vh; */
     text-indent: 50px;
     text-align: justify;
     margin-bottom: 50px;
