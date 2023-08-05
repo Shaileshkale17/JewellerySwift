@@ -211,7 +211,7 @@ section:nth-child(1) {
   margin-top: 15px;
   text-align: center;
   animation-name: main-text;
-  animation-duration: 10s;
+  animation-duration: 3s;
 }
 
 @keyframes main-text {
@@ -249,7 +249,7 @@ section:nth-child(1) {
   padding: 100px;
   font-size: 23px;
   animation-name: video-text;
-  animation-duration: 10s;
+  animation-duration: 3s;
 }
 
 @keyframes video-text {
