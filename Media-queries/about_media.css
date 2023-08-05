@@ -607,7 +607,7 @@
   }
 
   .image-info-text-box img {
-    width: 100%;
+    width: 70%;
     height: auto;
     padding-bottom: 21px;
     object-fit: cover;
