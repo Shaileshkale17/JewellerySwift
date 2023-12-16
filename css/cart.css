@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;;
 }
 
 .cart .cart-main .cart-img{
@@ -25,11 +26,13 @@
 .cart .cart-main .cart-text{
     font-size: 2rem;
 }
+.cart .cart-main .cart-text p{
+    width: 20rem;
+}
 .cart .cart-main .cart-icon{
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin-left: 50rem;
 }
 .cart .cart-main .cart-icon input{
     width: 50px;
@@ -52,3 +55,4 @@ img{
     width: 60%;
     height: 60%;
 }
+
