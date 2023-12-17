@@ -90,7 +90,6 @@ function displayJewelleryItems() {
   );
 
   jewelleryItems.forEach((item) => {
-    console.log(item)
     const itemBox = document.createElement("div");
     itemBox.classList.add("jewellery-section-image-box");
     itemBox.onclick = BoxClick; // Assuming BoxClick is a defined function
@@ -200,7 +199,7 @@ function displayWeddingCollection() {
     );
   
     WeddingCollection.forEach((item) => {
-      console.log(item)
+      
       const itemBox = document.createElement("div");
       itemBox.classList.add("jewellery-section-image-box");
       itemBox.onclick = BoxClick; // Assuming BoxClick is a defined function
@@ -312,7 +311,7 @@ function displayMenCollection() {
   );
 
   MenCollection.forEach((item) => {
-    console.log(item)
+    
     const itemBox = document.createElement("div");
     itemBox.classList.add("jewellery-section-image-box");
     itemBox.onclick = BoxClick; // Assuming BoxClick is a defined function
