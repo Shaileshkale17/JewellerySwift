@@ -1,6 +1,7 @@
-function addToCart(packageName, packageNumber, price, goldRarity) {
+function addToCart(image, packageName, packageNumber, price, goldRarity) {
     let packageDetails = {
         itemsID: Date.now(),
+        image,
         name: packageName,
         number: packageNumber,
         price: price,

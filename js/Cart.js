@@ -9,10 +9,11 @@ function displayCartItems() {
     } else {
         let cartList = document.createElement('div');
         cart.forEach(packageDetails => {
+            console.log(packageDetails)
             let cartItemHTML = `
             <div class="cart-main">
                 <div class="cart-img">
-                    <img src="image/m11.jfif" alt="box1">
+                    <img src="${packageDetails.image}" alt="${packageDetails.name}">
                 </div>
                 <div class="cart-text">
                     <p>${packageDetails.name}</p>
@@ -35,9 +36,9 @@ function displayCartItems() {
         });
 
         // Display total price
-        let totalElement = document.createElement('div');
-        totalElement.innerHTML = `<p>Total Price: ${totalPrice}</p>`;
-        cartItemsContainer.appendChild(totalElement);
+        // let totalElement = document.createElement('div');
+        // totalElement.innerHTML = `<p>Total Price: ${totalPrice}</p>`;
+        // cartItemsContainer.appendChild(totalElement);
 
         cartItemsContainer.appendChild(cartList);
     }

@@ -15,7 +15,7 @@
 }
 
 .cart .cart-main .cart-img{
-    width: 10%;
+    width: 4rem;
     
 }
 .cart .cart-main .cart-img img{
@@ -27,7 +27,7 @@
     font-size: 2rem;
 }
 .cart .cart-main .cart-text p{
-    width: 20rem;
+    width: 7rem;
 }
 .cart .cart-main .cart-icon{
     display: flex;
