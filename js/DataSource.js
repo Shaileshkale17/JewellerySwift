@@ -83,13 +83,35 @@ const jewelleryItems = [
   },
 ];
 
+// adding to local storage for later
+
+function addToLocalStorage(key, value){
+
+const localStorageData = JSON.stringify(value);
+
+localStorage.setItem(key, localStorageData);
+
+}
+
+
+addToLocalStorage("jewelleryItems",  jewelleryItems)
+
+
+
+
+
+
+
 // Function to display items on the main page
 function displayJewelleryItems() {
   const jewellerySection = document.getElementById(
     "jewellery-section-main-image-box"
   );
 
-  jewelleryItems.forEach((item) => {
+const jewelleryItemsData = JSON.parse(localStorage.getItem("jewelleryItems"))||[];
+
+console.log(jewelleryItemsData)
+jewelleryItemsData.forEach((item) => {
     console.log(item)
     const itemBox = document.createElement("div");
     itemBox.classList.add("jewellery-section-image-box");
